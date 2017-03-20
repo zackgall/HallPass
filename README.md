@@ -1,8 +1,8 @@
 # HallPass Generator Tool
 
-TO DO:
-  Rich text editor to modify body of hall pass.
-  Improve hall pass styling/fonts.
+TO DO:<br />
+Rich text editor to modify body of hall pass.<br />
+Improve hall pass styling/fonts.<br />
 
-RECENTLY ADDED:
-  Logic added to skip rows that do not contain a name.
+RECENTLY ADDED:<br />
+Logic added to skip rows that do not contain a name.<br />
