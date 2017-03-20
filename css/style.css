@@ -62,7 +62,7 @@ background-color: white;
     .hp_table td {
         font-family: Arial, sans-serif;
         font-size: 15px;
-        padding: 5px 20px;
+        padding: 5px 15px;
         border-style: none;
         overflow: hidden;
         word-break: normal;
@@ -70,7 +70,7 @@ background-color: white;
     .hp_table th {
         font-family: Arial, sans-serif;
         font-size: 15px;
-        padding: 5px 20px;
+        padding: 5px 15px;
         border-style: none;
         overflow: hidden;
         word-break: normal;
@@ -104,10 +104,11 @@ background-color: white;
     }
     p {
         font-family: Arial, sans-serif;
+        font-size: 16px;
     }
     .inputs {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
+        font-size: 25px;
     }
     #red{
       color: darkred;
