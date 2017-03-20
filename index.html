@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/jquery-ui.js"></script>
+    <script type="text/javascript" src="scripts/logic.js"></script>
+
+    <title>Hall Pass Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="images/logo.png" align="center"><br><br>
+
+		<div class="inputs">
+			School Name: <input type="text" class="inputs" id="school"><br />
+			Blood Drive Date: <input type="text" class="inputs" id="date" /><br />
+			<div class="ui-widget">
+				<label for="location">Room Name: </label>
+				<input type="text" id="location" value="">
+			</div>
+			Draw Hours: <input type="text" id="hours" class="inputs" value="8:00AM - 1:00PM">
+      Select Corresponding Column From Your Schedule:<br>
+      <img src="images/column_example.png"><br />
+<div id = "red">
+        Appointent Time <select id="time_column">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+</select>
+      | Name <select id="name_column">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+      | Home Room <select id="homeroom_column">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+</div>
+			<br>
+			<textarea name="styled-textarea" id="styled-textarea" onfocus="this.value=''; setbg('#fedbe5');" onblur="setbg('white')">
+Copy and paste from your scheduling spreadsheet to generate hall passes. Passes can be printed from your browser and distributed to home room teachers the day before or morning of the blood drive.
+      </textarea>
+			<br />
+        </div>
+		<button id="generate-btn" class="btn">Generate Hall Passes</button>
+		<button id="reset-btn" class="btn">Reset</button>
+
+    		<div id="test"></div>
+    </div>
+
+</body>
+</html>
